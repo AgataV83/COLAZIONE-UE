@@ -1,0 +1,89 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: white;
+    margin: auto;
+    max-width: 1200px;
+}
+img {
+    max-width: 100%;
+}
+.navbar {
+    background-color:white;
+}
+.navbar li {
+    float: right;
+    list-style: none;
+    margin: 15px 15px;
+}
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+header {
+    background-color: white;
+
+}
+section h2 {
+    background-color: white;
+    text-align: center;
+}
+
+main h2.europa-settentrionale {
+    text-align: left;
+}
+section.card {
+    background-color: white;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+section.card h3, section.card p {
+    margin: 0 10px;
+    font-size: 22px;
+    line-height: 28px;
+}
+section.card h3 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section.card p {
+    margin-bottom: 10px;
+    text-align: justify;
+    hyphens: auto;
+    color: black;
+}
+section.card div {
+    background-color: #ececec;
+}
+section.card img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+main h2.europa-centrale {
+    text-align: left;
+}
+main h2.europa-meridionale {
+    text-align: left;
+}
+.contenitore {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+footer {
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+}
+footer p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
